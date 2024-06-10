@@ -1,0 +1,33 @@
+LIST (LS) [pattern]*			  |		Visualizza il contentuto dell'attuale directory
+
+CD								  |		Visualizza la directory attuale
+CD [cartella/percorso]			  |		Spostarsi nella directory specificata
+CD ..							  |		Spostarsi nella directory direttamente superiore a quella attualmente in uso
+
+DEL [pattern]					  |		Elimiare tutti i file presenti nella cartella corrente con l'estensione specificata
+
+TASKLIST [pattern]*						  |		Mostra tutti i processi in esecuzione, in caso sia specificato un pattern vengono filtrati
+TASKLIST -A						  |		Mostra tutti i processi in esecuzione relativi ad applicazioni cioè con una finestra
+
+[ESEGUIBILE]					  |		Esegue il processo specificato
+
+CLOSE [nome]/[id]				  |		Invia al processo specifato un comando di chiusura
+CLOSE [nome]/[id] -F			  |		Forza la terminazione del processo
+
+COPY [sorgente] in [destinazione] |       Copia la cartella sorgente specificatadentro la cartella di destinazione specificata
+
+PING [attributo:valore] indirizzo di destinazione | Esegue un ping con i parametri specificati all'indirizzo specificato
+	Attributi disponibili:
+		[-n]					| Count
+		[-l]					| Size
+		[-i]					| ttl
+		[-w]					| timeout
+
+CONFIG (#CONFIG)				  |	  	Apre la form di impostazioni
+
+HELP-MACRO						  |			Visualizza tutto le macro disponibili
+ADDMACRO %[nome]% [percorso]	  |		    Impotsa una nuova macro con il percorso speficato	
+
+TITLE [Stringa]					  |			Cambia titolo della console
+	
+QUIT (quit)						  |			Termina il programma
