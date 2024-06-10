@@ -8,9 +8,11 @@ Includes other school projects like COPY and PING and some personal extra featur
 <br>
 Executing it, windows defender could block the executable, don't worry that's completely normal
 <br>
+<br>
 It's all in Italian because it is done for an Italian school. If you have any questions, you can contact me on LinkedIn or via email at 
 <a href="malito:marco.ceccarelli.code@gmail.com
 ">marco.ceccarelli.code@gmail.com</a>
+<br>
 <br>
 
 # Available commands
@@ -37,7 +39,7 @@ It's all in Italian because it is done for an Italian school. If you have any qu
 |HELP-MACRO|	Displays all available macros|
 |ADDMACRO %[name]% [path]	|Sets a new macro with the specified path|
 |TITLE [String]	|Changes the console title|
-
+<br>
 <hr style="border: none; height: 1px;">
 
 <p align="center">
